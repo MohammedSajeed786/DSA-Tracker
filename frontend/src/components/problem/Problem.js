@@ -8,7 +8,7 @@ export default function Problem() {
   useEffect(() => {
     async function fetchData() {
       const LEETCODE_API_ENDPOINT =
-        "https://safe-ocean-65977.herokuapp.com/https://leetcode.com/graphql";
+        "https://leetcode.com/graphql";
       let gqlBody = {
         query: ` query questionOfToday {
                activeDailyCodingChallengeQuestion {
