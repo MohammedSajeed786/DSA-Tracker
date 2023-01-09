@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.category-questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:5vh 10vw 5vh 10vw;
+    font-family: "Ubuntu", sans-serif;
+}
+.cat-head{
+   text-align: center;
+   color: #021F3B;
+   margin-bottom: 5vh;
+}
+.show-count{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    padding-left: 15%;
+}
+.count-title{
+    color: #021F3B;
+    margin-right:10%
+
+}
+
+.count-easy{
+    color: #59ae6a;
+    margin-right:10%;
+    margin-left:5%;
+
+}
+.count-medium{
+    color: #ffbf4f;
+    margin-right:10%;
+    margin-left:5%;
+}
+.count-hard{
+    color: #fe4040;
+    margin-left:5%;
+
+}
+.check{
+display: flex;
+/* align-items: flex-end; */
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+.easy-check,.med-check,.hard-check{
+  margin-left: 3em;
+  
+   
+}
+ 

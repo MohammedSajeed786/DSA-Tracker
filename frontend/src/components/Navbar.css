@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Ubuntu:wght@300&display=swap');
+.Navbar{
+    width: 100%;
+    display: flex;
+    min-height: 7rem;
+    color: white;
+    background-color:#021F3B;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.header{
+  margin-left: 3%;
+}
+.logo{
+    font-family: 'Jura', sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 500;
+}  
+.des{
+    color: #b7bff8;
+    font-family: 'Jura', sans-serif;
+    margin-left: 5%;
+}
+.profile{
+    margin-right: 3%;
+    color: #b7bff8;
+}
+.profile:hover{
+    /* cursor:grab; */
+}
+
+ .dpd:focus{
+    background-color: #8d96d1 !important;
+}
+
+
+
+     

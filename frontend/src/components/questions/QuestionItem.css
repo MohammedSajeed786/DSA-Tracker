@@ -1,0 +1,86 @@
+.each-question {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  margin: 15px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 17px 10px 17px 15px;
+  border: 0.5px solid black;
+  color: black;
+  border-radius: 10px;
+}
+.each-question:hover {
+  box-shadow: 10px 0px 75px 25px rgb(0 0 0 / 10%);
+  border: 0.5px solid rgb(70, 21, 109);
+  color: #5f3eac;
+}
+.solve {
+  margin-bottom: 2em;
+}
+.solve-button {
+  position: absolute;
+  left: 80%;
+  border-radius: 10px;
+
+  border: 0.5px solid black;
+  color: black;
+  background-color: white;
+  width: 5em;
+}
+.mark {
+  margin-bottom: 2em;
+}
+.mark-button {
+  position: absolute;
+  left: 65%;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  color: black;
+  background-color: white;
+  width: 10em;
+  
+}
+
+.each-question:hover .solve-button {
+    border: 0.5px solid rgb(70, 21, 109);
+    color: #5f3eac;
+}
+.each-question:hover .mark-button {
+    border: 0.5px solid rgb(70, 21, 109);
+    color: #5f3eac;
+}
+.difficulty {
+  position: absolute;
+  left: 56%;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  /* border-radius: 10px; */
+  /* border: 1px solid #E6E8F3; */
+}
+.easy {
+  color: #59ae6a;
+}
+.medium {
+  color: #ffbf4f;
+}
+.hard {
+  color: #fe4040;
+}
+.dots{
+  color:black;
+}
+.each-question:hover  .dots{
+   
+  color: #5f3eac;
+}
+.dropdown-toggle::after {
+  content: none !important;
+}
+.options{
+  position: absolute;
+  left: 88%;
+}

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.user-profile{
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+     
+
+}
+ 
+.prof-title{
+    margin-top: 1em;
+    align-self: center;
+    color:#386388;
+}
+.details{
+
+    align-self:center;
+    /* border:1px solid black; */
+    /* min-height: 5em;
+    min-width:6em; */
+    width: 40em;
+    min-height: 13em;
+    margin: 2em;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+    border-radius: 0.5em;
+     padding: 3em;
+}
+.prof-name-title{
+    display: inline;
+    color: #5f3eac;
+}
+.prof-email-title{
+    display: inline;
+    color: #5f3eac;
+}
+.prof-name{
+    display: inline;
+    margin-left: 3em;
+     
+}
+.prof-email{
+    display: inline;
+    margin-left: 3em;
+     
+     
+}
+.per-det,.prob-det{
+    margin-bottom: 1em;
+}
+.info{
+    color:#5f3eac;
+    font-size: 40px;
+    /* margin-bottom: 0.5em; */
+    margin-right: 1em;
+    position: relative;
+    top:0.15em
+}
+.per-det-title,.prob-det-title{
+    display: inline;
+    color:#5f3eac;
+    /* line-height:1em; */
+        
+}
+.prof-problems{
+    
+    align-self:center;
+    /* border:1px solid black; */
+    /* min-height: 5em;
+    min-width:6em; */
+    width: 40em;
+    min-height: 13em;
+    margin: 2em;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+    border-radius: 0.5em;
+    padding: 3em;
+}
+/* .prof-easy, */
+/* .prof-med,.prof-hard{
+    margin:1em 0em;
+} */
+
+/* .easy-det{
+    margin-bottom: 1em;
+} */
+.pgb-easy{
+    background-color:#439e99;
+}
+.pg-easy{
+    background-color:#3b8b872e;
+    height:0.5em !important;
+}
+ .pgb-med{
+    background-color:#ffbf4f;
+}
+.pg-med{
+    background-color:#fae9c9;
+    height:0.5em !important;
+}
+.pgb-hard{
+    background-color: #fe4040;
+}
+.pg-hard{
+    background-color:#ffdbdb;
+    height:0.5em !important;
+}
+h6{
+    display: inline;
+}
+.coins
+{
+margin-left: 5em;
+
+}

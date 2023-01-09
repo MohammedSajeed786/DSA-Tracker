@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.prob-div{
+  display: flex;
+  justify-content: center;
+}
+.Problems {
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid #0b375f;
+  /* margin: 5em 10rem; */
+  padding: 3em;
+  border-radius: 1em;
+  font-family: "Ubuntu", sans-serif;
+  min-width: 80%;
+  /* font-size: 30px; */
+  margin-bottom: 3em;
+}
+
+
+.leetcode{
+    
+  /* border: 1px solid #0b375f; */
+   display: flex; 
+   justify-content: space-between; 
+   flex-wrap: wrap;
+   /* display: inline; */
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+
+  margin-bottom: 3em;
+  padding: 1em 2em;
+
+  padding-top: 1.5em;
+   
+  border-radius: 0.5em;
+   
+}
+
+.gfg{
+    /* border: 1px solid #0b375f; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0em;
+  padding: 1em 2em;
+  padding-top: 1.5em;
+  border-radius: 0.5em;
+  flex-wrap: wrap;
+}
+
+.daily_title{
+  /* display: inline;
+  text-align: center; */
+  
+}
+
+
+ .daily_link{
+    width: 10%;
+    
+     
+}
+.prob-button{
+  border-radius: 0.5em;
+  padding: 0.3em;
+  width:100%;  
+  background-color: #15314B;
+  color:white;
+  border: none;
+  
+}
+
+
+
+.anc{
+
+    background-color: #15314B;
+    text-decoration: none;
+}
+.lc-logo{
+  margin-left: 3em;
+    
+}
+
+
+@media (max-width:600px){
+   .leetcode,.gfg{
+     flex-direction: column;
+   }
+   .daily_link{
+     width: 49%;
+     align-self: center;
+   }
+}
+
+
+   

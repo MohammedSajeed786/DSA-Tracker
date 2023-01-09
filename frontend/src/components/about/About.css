@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
+.about {
+  text-align: center;
+}
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  color: #02203c;
+  line-height: 1.3;
+}
+.about-card {
+  padding: 3vw;
+}
+.about-heading {
+  font-weight: 386;
+  color: #5f3eac;
+}
+
+.about-card:hover {
+  border-radius: 10px;
+  box-shadow: 0 5px 25px 15px rgb(0 0 0 / 10%);
+  transition: 0.3s ease;
+  border: 0.5px solid rgb(70, 21, 109);
+}
