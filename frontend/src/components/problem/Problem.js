@@ -9,16 +9,16 @@ export default function Problem() {
     async function fetchData() {
       const LEETCODE_API_ENDPOINT = "https://leetcode.com/graphql";
       let gqlBody = {
-        query: ` query questionOfToday {
+        query: `query questionOfToday {
                activeDailyCodingChallengeQuestion {
                            link
             }
            }`,
         variables: "{}",
       };
+       
       const response = await fetch(LEETCODE_API_ENDPOINT, {
         method: "POST",
-
         headers: {
           Accept: "*/*",
           "Content-type": "application/json",
